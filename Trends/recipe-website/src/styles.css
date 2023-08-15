@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.header-container {
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../public/images/header.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 340px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.header-container h1 {
+  font-size: 4rem;
+  color: white;
+}
+
+.header-container p {
+  font-size: 1.25rem;
+}
+
+.home-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  text-align: center;
+}
+
+.section-content {
+  flex: 1;
+  text-align: left;
+  padding-right: 20px;
+}
+
+.flex-reverse {
+  flex-direction: row-reverse;
+  background: #f4f4f4;
+}
+
+.section-image {
+  max-width: 50%;
+  height: auto;
+  border-radius: 10px;
+  margin: 0 32px;
+}
+
+@media screen and (max-width: 768px) {
+  .home-section {
+    padding: 24px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+  }
+
+  .section-content {
+    padding-right: 0;
+  }
+
+  .section-image {
+    margin: 32px 0;
+    max-width: 100%;
+  }
+  .header-container h1 {
+    font-size: 2rem;
+    color: white;
+  }
+}
