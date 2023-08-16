@@ -11,6 +11,7 @@ import Recipes from "./Recipes";
 import RecipeDetail from "./RecipeDetail";
 import AddRecipe from "./AddRecipe";
 import CookingTips from "./CookingTips";
+import NotFound from "./NotFound";
 
 function App() {
   return (
@@ -23,9 +24,10 @@ function App() {
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
           <Route path="/recipes" exact component={Recipes} />
-          <Route path="/recipes/:id" component={RecipeDetail} />
+          <Route path="/recipes/:recipeId" component={RecipeDetail} />
           <Route path="/add-recipe" component={AddRecipe} />
           <Route path="/cooking-tips" component={CookingTips} />
+          <Route component={NotFound} />
         </Switch>
         <Footer />
       </div>
