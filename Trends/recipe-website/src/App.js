@@ -1,6 +1,8 @@
+// Malena Aguiar, Jayr Sullano, Juan Adon
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min";
 import Header from "./Header";
 import Navbar from "./Navbar";
 import Footer from "./Footer";

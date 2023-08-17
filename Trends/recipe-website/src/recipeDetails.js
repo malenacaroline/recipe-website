@@ -1,3 +1,4 @@
+// Malena Aguiar
 const recipeDetails = [
   {
     id: "recipe1",

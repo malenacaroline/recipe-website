@@ -1,3 +1,4 @@
+// Juan Adon
 import React from "react";
 import { useSpring, animated } from "react-spring";
 import { Link } from "react-router-dom";
@@ -53,7 +54,7 @@ function Home() {
             culinary expertise.
           </p>
           <Link to="/about" className="btn btn-outline-secondary mt-3">
-            Explore Tips
+            More About Us
           </Link>
         </div>
         <img
