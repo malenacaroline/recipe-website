@@ -10,7 +10,6 @@ import Contact from "./Contact";
 import Recipes from "./Recipes";
 import RecipeDetail from "./RecipeDetail";
 import AddRecipe from "./AddRecipe";
-import CookingTips from "./CookingTips";
 import NotFound from "./NotFound";
 
 function App() {
@@ -26,7 +25,6 @@ function App() {
           <Route path="/recipes" exact component={Recipes} />
           <Route path="/recipes/:recipeId" component={RecipeDetail} />
           <Route path="/add-recipe" component={AddRecipe} />
-          <Route path="/cooking-tips" component={CookingTips} />
           <Route component={NotFound} />
         </Switch>
         <Footer />

@@ -42,22 +42,23 @@ function Home() {
         style={sectionProps}
       >
         <div className="section-content">
-          <h2 className="h2 text-warning">Cooking Tips</h2>
+          <h2 className="h2 text-warning">About Us</h2>
           <p className="mt-4">
-            Cooking is an art that marries technique and creativity, and we're
-            here to guide you every step of the way. Our cooking tips offer more
-            than just instructions – they provide you with a deeper
-            understanding of ingredients, methods, and the science behind the
-            flavors. With our tips, you'll not only prepare mouthwatering dishes
-            but also unlock the secrets to culinary mastery.
+            Embark on a culinary journey that combines skill and imagination. At
+            CulinaryDelights, we are your companions in the realm of cooking,
+            offering guidance at every turn. Our cooking insights go beyond mere
+            directions – they unravel the intricacies of ingredients,
+            techniques, and the artistry within flavors. Through our advice,
+            you'll craft delectable creations and unravel the mysteries behind
+            culinary expertise.
           </p>
-          <Link to="/cooking-tips" className="btn btn-outline-secondary mt-3">
+          <Link to="/about" className="btn btn-outline-secondary mt-3">
             Explore Tips
           </Link>
         </div>
         <img
-          src="/images/cooking-tips.jpg"
-          alt="Cooking Tips"
+          src="/images/about-us.jpg"
+          alt="About Us"
           className="section-image"
         />
       </animated.section>
